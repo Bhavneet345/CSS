@@ -1,0 +1,8 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 40px;
+    /* atleast 2 colours */
+    background-image: linear-gradient(to top right,red, blue 120%);
+}
