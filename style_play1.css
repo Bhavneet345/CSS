@@ -1,0 +1,15 @@
+.body-header h1{
+    color: gray;
+}
+
+h1{
+    height: 150px;
+    line-height: 150px;
+}
+
+@media (max-width: 762px) {
+    h1 {
+        height: 100px;
+        line-height: 100px;
+    }
+}
