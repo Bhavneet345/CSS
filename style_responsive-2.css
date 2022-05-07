@@ -1,0 +1,31 @@
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
+div{
+    display: inline-block;
+    width: 30%;
+    margin :1%;
+    height: 300px;
+}
+
+.div1{
+    background-color: #ff8989;
+}
+
+.div2{
+    background-color: #88f7ce;
+}
+
+.div3{
+     background-color: #e29df2;
+}
+
+@media screen and (min-width:600px){
+    div{
+        margin:0px;
+        display: block;
+        width: 100%;
+    }
+}
